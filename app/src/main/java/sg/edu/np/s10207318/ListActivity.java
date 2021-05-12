@@ -4,7 +4,6 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.content.DialogInterface;
@@ -19,7 +18,7 @@ public class ListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
-        ImageView Imagebtn = findViewById(R.id.imagebtn);
+        ImageView Imagebtn = findViewById(R.id.profilebtn);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(ListActivity.this);
 
